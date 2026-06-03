@@ -1,12 +1,13 @@
+*.db
+*.sqlite
+*.sqlite3
 .env
-node_modules/
-
-# Python
+.env.local
 __pycache__/
 *.pyc
-.venv/
 venv/
-
-# SQLite
-*.db
-instance/
+.venv/
+node_modules/
+.pytest_cache/
+*.log
+.DS_Store
